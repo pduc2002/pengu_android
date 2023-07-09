@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LoginForm</string>
+    <string name="custom_permission_description">This required a VIEW permission</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FileControl</string>
+    <string name="custom_permission_description">Do you want to turn into FileControl app?</string>
+    <string name="custom_service_permission">This required a permission for binding service?</string>
+</resources>
