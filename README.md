@@ -16,10 +16,9 @@ All REPORTS and DEMOs have been divided into three PDFs:
 Requirements:
 
 * Android Studio: [Minimum System Requirements & Installation Guide](https://developer.android.com/studio/install?hl=vi)
-* Target version: Android 11 (API level 30)
+* Android version: 11.0 (API level 30)
 * Program Language: Java
 ### **a. Android 1** 
-Android version: 11.0 (API level 30)
 A Login/Logup app uses sqlite database:
 * User can sign in, sign up and return into sign in page (sign out)
 * Using ProGuard to reduce the size of the APK (Android Package) file, optimize bytecode, and obfuscate the code to make it more difficult to reverse-engineer
@@ -27,14 +26,12 @@ A Login/Logup app uses sqlite database:
 
 ### **b. Android 2**
 Two basic Android applications have features that control access to each other through Permissions on their components:
-* Android version: 11.0 (API level 30)
 * The first app is an Android 1 app with additional functions: export all username in SQLite database, `get a random number from service using Bind/uBind Service`, turning into the second one.
 * The second app can view all pictures on the device, `generate random number` and only be opened from the first one by clicking `Export all credentials`
 * Both apps have system and custom permissions. The service must be started (in File Control app) before `Bind Service`
 * [DEMO for Android 2/3  - Permission](https://www.youtube.com/watch?v=Pth7-GTcwIs)
 
 ### **c. Android 3**
-Android version: 11.0 (API level 30)
 An app view all picture from MySQL database:
 - Use SSL connection to Apache
 - Executing SQL SELECT statement through PHP
