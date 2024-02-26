@@ -62,7 +62,7 @@ public class MysqlDb {
                 .build();
 
         Request request = new Request.Builder()
-                .url("https://10.0.139.42/android/v1/GetImage.php")
+                .url("https://192.168.1.6/Android/v1/GetImage.php") //change to match directory of GetImage.php
                 .build();
 
         client.newCall(request).enqueue(new Callback() {

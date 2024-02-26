@@ -1,5 +1,5 @@
 <?php
-$hostname = "10.0.139.42";
+$hostname = "192.168.1.6";
 $username = "pengu";
 $password = "123456";
 $database = "android3";
