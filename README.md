@@ -13,6 +13,11 @@ All REPORTS and DEMOs have been divided into three PDFs:
 
 
 ## **3. Description**
+Requirements:
+
+* Android Studio: [Minimum System Requirements & Installation Guide](https://developer.android.com/studio/install?hl=vi)
+* Target version: Android 12 (API level 31 )
+* Program Language: Java
 ### **a. Android 1** 
 A Login/Logup app uses sqlite database:
 * User can sign in, sign up and return into sign in page (sign out)
