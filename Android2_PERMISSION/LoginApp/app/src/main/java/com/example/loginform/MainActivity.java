@@ -126,7 +126,8 @@ public class MainActivity extends AppCompatActivity {
             }
             writer.close();
             // Thông báo thành công
-            Toast.makeText(this, "Dữ liệu đã được xuất ra tệp tin", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Dữ liệu đã được xuất ra tệp tin", Toast.LENGTH_SHORT
+            ).show();
         } catch (IOException e){};
     }
 
